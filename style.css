@@ -1,0 +1,500 @@
+ h1{
+    color:red;
+}
+p{
+    color:pink;
+}
+button{
+    color:chocolate;
+    background-color:yellow
+}
+body{
+    background-color: #ffff00;
+} 
+
+
+
+ *{
+    color:pink;
+}
+.myclass{
+    color:purple;
+}
+.myClass{
+    color:blue;
+}
+#box{
+   background-color: red;
+}
+button{
+    background-color:pink;
+} 
+
+* p{
+    text-align : center;
+}
+h1{
+    text-align : center;
+    text-decoration: line;
+} 
+a{
+    text-decoration: none;
+}
+#h1{
+    font-weight : normal;
+}
+#h2{
+    font-weight : bold;
+}
+#h3{
+    font-weight : bolder;
+}
+#h4{
+    font-weight : lighter;
+}
+#h4{
+    font-weight : 200;
+}
+#one{
+    font-family: arial; 
+ }
+#two{
+    font-family: 'Segoe UI';
+} 
+
+
+ #one{
+    font-size: 25px;
+} 
+
+ #one{
+    line-height: 20px;
+    text-transform: uppercase;
+    text-transform: capitalize;
+} 
+
+
+
+/* level 2 */
+
+
+  div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 10px;
+     border-radius: 50%;
+     padding-left: 25px;
+    margin-top: 50px; 
+}  
+
+
+ div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+} 
+
+
+ *{
+    padding: 0;
+    margin: 0;
+   color: white;
+}
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+
+}
+a{
+    margin-right: 200px;
+} 
+ 
+
+ div{
+     background-color: pink;
+    display: inline; 
+     height: 200px;
+    width: 200px;
+    margin:25px;
+    padding:25px;
+    display: inline-block;
+    background-color: rgba(255, 0, 0,0.5); 
+ }  
+ #box2{
+    visibility: hidden;
+} 
+ 
+ 
+   *{
+    padding: 0;
+    margin: 0;
+   color: white;
+}
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+button{
+    background-color: #f08804;
+}
+#logo{
+    color: #f08804;
+    font-size: 25px;
+
+}
+a{
+    margin-right: 200px;
+}  
+
+
+.contentBox{
+    height: 23px;
+    width: 100px;
+} 
+ 
+
+
+/* level 3 */
+ 
+#box1{
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    font-size:  10px;
+}
+#box2{
+    height: 50px;
+    width: 30%;
+    background-color: yellow;
+    margin-left: 10%;
+    font-size: 2em;
+    height: 1vh;
+} 
+
+ div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+} 
+ #box1{
+
+    position: static;
+}
+#box2{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    z-index: 1;
+}
+#box3{
+    position: absolute;
+    top: 500px;
+    left: 20px;
+
+}
+#box4{
+    position: fixed;
+    top: 50px;
+    z-index: 3;
+} 
+
+ body{
+    background-size: cover;
+    background-size: contain;
+}
+body{
+    background-image: url("cat_photo.jpg.jpg"); 
+     
+     background-image: url("https://images.unsplash.com/photo-1529778873920-4da4926a72c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW5pbWFsc3xlbnwwfHwwfHx8MA%3D%3D") 
+}
+  #box1{
+    background-image: url("https://images.unsplash.com/photo-1529778873920-4da4926a72c2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YW5pbWFsc3xlbnwwfHwwfHx8MA%3D%3D");
+    
+
+}  
+ #box1{
+    background-size: cover;
+    background-size: contain;
+}
+#box1{
+    background-image: url("cat_photo.jpg.jpg") 
+
+} 
+
+
+/* 
+practice set */
+ body{
+    background-image: url("bird_photo.jpg");
+}
+body{
+    background-size: contain;
+} 
+  div{
+    height: 100px;
+    width: 100px;
+    color: white;
+    position: fixed;
+    right: 0px;
+    
+    background-image: url("bird_photo.jpg")
+ }
+ div{
+    background-size: cover;
+ } */
+
+
+ /* Level4 */
+
+  body{
+    text-align: center;
+
+ }
+
+ div{
+    height: 100px;
+    width: 150px;
+    display: inline-block;
+    border: 2px solid black;
+ }
+
+ #container{
+      width: 600px;
+      height: 600px;
+      display: flex;
+      flex-direction: row; 
+      flex-direction: row-reverse; 
+       flex-direction: column;
+      flex-direction: column-reverse;
+      justify-content: flex-start; 
+       justify-content: center;
+      flex-wrap: wrap; 
+       align-items: center; 
+       align-content: flex-end; 
+      
+  } 
+  #box1{
+    background-color: aqua;
+ }
+
+ #box2{
+    background-color: pink;
+    height: 200px;
+    align-self: flex-end;
+ }
+
+ #box3{
+    background-color: darkkhaki;
+    height: 100px;
+ }
+
+ #box4{
+    background-color: indianred;
+ }
+
+ #box5{
+    background-color: slateblue;
+ } */
+
+
+
+ /* practice */
+
+
+  .navbar{
+    background-color: pink;
+    display:flex;
+    justify-content: space-evenly;
+ }
+
+ a{
+    text-decoration: none;
+    color: black;
+    background-color: aqua;
+ }
+
+ li{
+    list-style-type: none;
+    display: inline;
+ } 
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: darkolivegreen;
+}
+
+  
+     
+
+
+   div{
+    height: 50px;
+    width: 50px;
+    background-color: pink;
+  }
+  @media(width : 600px){
+    div{
+        background-color: red;
+    }
+  }
+
+  @media(max-width: 600px){
+  div{
+    background-color: green;
+  }
+  }
+
+  @media(min-width: 200px)   and (max-width: 300px){
+  div{
+    background-color: red;
+  }
+} 
+
+
+ div{
+    height: 200px;
+    width: 200px;
+    background-color: chocolate;
+}
+
+@media(max-width: 300px){
+    div{
+        background-color: green;
+    }
+}
+@media(max-width: 300px)  and ( max-width:400px){
+    div{
+        background-color: blue;
+    }
+}
+@media(max-width: 400px)  and ( max-width:600px){
+    div{
+        background-color: yellow;
+    }
+}
+@media(min-width: 600px){
+    div{
+        background-color: brown;
+    }
+} 
+
+
+
+/* level5 */
+
+ div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+    position: absolute;
+    top:100px;
+    left: 100px; 
+     transition-property: all ;
+    transition-duration: 2s;
+    transition-timing-function: steps(5); 
+     transition: all 2s ease-in 1s; 
+     transform: rotate(45deg); 
+     transform: scale(2,1); 
+    transition: all 2s ease-in; 
+
+
+     animation-name: colorAnimate;
+    animation-duration: 2s; 
+     animation-timing-function: ease-in; 
+     animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+     animation: colorAnimate 2s linear 3s infinite alternate;
+
+  animation: colorAnimate 4s linear 3s infinite normal;
+
+} 
+
+ @keyframes colorAnimate{ 
+    from{background-color: aqua;}
+   to{background-color: red;} 
+    from{
+    left: 0px; 
+    background-color: yellow;
+}
+   to{
+    left: 200px;
+     background-color: blue;
+    
+    
+    
+    } 
+
+     0%{
+        left: 0px;
+        background-color: yellow;
+    }
+    50%{
+        background-color: blueviolet;
+
+    }
+    100%{
+        left: 200px;
+        background-color: red;
+        color: pink;
+    }
+    } 
+
+ div:hover{ 
+     background-color: pink;
+    color: white;
+    font-size: 20px; 
+    transform: scale(2); 
+     transform: translate(100px,200px); 
+     transform: skew(90deg);
+   
+
+ }  
+ div:active{
+    background-color: green;
+} 
+
+
+
+/* practice */
+
+.loader{
+    width: 200px;
+    height: 200px;
+     border-radius: 50%; 
+     border: 20px solid #7C7753;
+    border-top: 20px solid #9C6E6D;
+    animation: spinAnimate 3s steps(5) 0s infinite normal;
+     background-color: pink; 
+}
+@keyframes spinAnimate{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
